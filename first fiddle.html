@@ -14,6 +14,8 @@
         crossorigin="anonymous"></script>
     <!--icon link-->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--AOS animation link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <style>
@@ -29,6 +31,9 @@
             color: #fff !important;
             font-weight: 600;
             font-size: 20px;
+        }
+        .navbar li:hover {
+            background: orange;
         }
 
         .weblogo {
@@ -72,14 +77,22 @@
             <div class="navbar-collapse collapse" id="a">
                 <ul class="navbar-nav ms-auto text-center">
 
-                    <li><a href="first fiddle.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="Brand.html" class="nav-link">Brand</a></li>
-                    <li><a href="our team.html" class="nav-link">Our Team</a></li>
-                    <li><a href="press release.html" class="nav-link">Press Release</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
-                    <li><a href="carrer.html" class="nav-link">Carrers</a></li>
-                    <li><a href="carrer.html" class="nav-link">Franchies</a></li>
+                    <li><a href="first fiddle.html" style="font-weight: lighter; font-size: 15px;"
+                            class="nav-link">Home</a></li>
+                    <li><a href="about.html" style="font-weight: lighter; font-size: 15px;" class="nav-link">About</a>
+                    </li>
+                    <li><a href="Brand.html" style="font-weight: lighter; font-size: 15px;" class="nav-link">Brand</a>
+                    </li>
+                    <li><a href="our team.html" style="font-weight: lighter; font-size: 15px;" class="nav-link">Our
+                            Team</a></li>
+                    <li><a href="press release.html" style="font-weight: lighter; font-size: 15px;"
+                            class="nav-link">Press Release</a></li>
+                    <li><a href="contact.html" style="font-weight: lighter; font-size: 15px;"
+                            class="nav-link">Contact</a></li>
+                    <li><a href="carrer.html" style="font-weight: lighter; font-size: 15px;"
+                            class="nav-link">Carrers</a></li>
+                    <li><a href="carrer.html" style="font-weight: lighter; font-size: 15px; border: 1px orange solid;"
+                            class="nav-link">Franchies</a></li>
                 </ul>
 
 
@@ -146,7 +159,7 @@
 
             </div>
 
-            <div class="col-md-5 text-center">
+            <div class="col-md-5 text-center" data-aos="fade-up">
                 <img src="https://pn-paul.netlify.app/image/first.jpg" alt="" class="imag123">
             </div>
             <br>
@@ -181,7 +194,7 @@
     <br>
 
     <div class="container">
-        <h3 class="text-center ex">EXPLORE <b style="color: orange;">OUR BRANDS</b>
+        <h3 class="text-center ex">EXPLORE <b style="color: orange;">OUR BRANDS</b></h3>
             <br>
             <br>
             <div class="row">
@@ -298,6 +311,10 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
